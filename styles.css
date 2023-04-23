@@ -1,0 +1,82 @@
+.board {
+    position: static;
+    padding: 3em;
+    height: 302px;
+    width: 302px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .row {
+    float: left;
+    height: 100px;
+    width: 100px;
+  
+  
+  
+  }
+  
+  .row>div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 75px;
+  
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .Left-Top,
+  .Top-Middle,
+  .Right-Top {
+    float: left;
+    height: 100px;
+    width: 100px;
+  
+  
+  }
+  
+  .Left-Middle,
+  .Center,
+  .Right-Middle {
+    float: left;
+    height: 100px;
+    width: 100px;
+  
+  }
+  
+  .Left-Bottom,
+  .Bottom-Middle,
+  .Right-Bottom {
+    float: left;
+    height: 100px;
+    width: 100px;
+  
+  }
+  
+  .Left-Top,
+  .Top-Middle,
+  .Right-Top {
+    border-bottom: 1px black solid;
+  }
+  
+  .Left-Bottom,
+  .Bottom-Middle,
+  .Right-Bottom {
+    border-top: 1px black solid;
+  }
+  
+  .Top-Middle,
+  .Center,
+  .Bottom-Middle {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+  }
